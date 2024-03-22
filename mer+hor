@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="224.03616997265837mm" height="224.2144456756406mm" viewBox="0 0 224.03616997265837 224.2144456756406" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Cylinder001" transform="translate(111.839737,112.107223) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="94.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<circle cx="0.0" cy="0.0" r="94.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<circle cx="0.0" cy="0.0" r="94.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<title>b'Horizon'</title>
+</g>
+<g id="Tube003" transform="translate(111.839737,112.107223) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="110.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<circle cx="0.0" cy="0.0" r="110.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<circle cx="0.0" cy="0.0" r="110.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<circle cx="0.0" cy="0.0" r="100.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:#cccccc"/>
+<title>b'Meridian'</title>
+</g>
+</svg>
