@@ -1,0 +1,1122 @@
+digraph "" {
+graph [
+compound=true];
+subgraph clusterCylinder020 {
+graph [
+bgcolor="#e0e0e0", label=Cylinder020, style="rounded,filled"];
+8[fixedsize=true, height=0, style=invis, width=0];
+9[fontsize="8pt", label=Radius, shape=box, style=dashed];
+}
+subgraph clusterCylinder017 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder017&#92;n(Horizon_mount_arc)", style="rounded,filled"];
+10[fontsize="8pt", label=Radius, shape=box, style=dashed];
+16[fontsize="8pt", label="Placement.Base.x", shape=box, style=dashed];
+17[fontsize="8pt", label=Height, shape=box, style=dashed];
+26[fixedsize=true, height=0, style=invis, width=0];
+}
+subgraph clusterTube017 {
+graph [
+bgcolor="#e0e0e0", label="Tube017&#92;n(Horizon_mount_arc_tool)", style="rounded,filled"];
+11[fixedsize=true, height=0, style=invis, width=0];
+12[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+13[fontsize="8pt", label=Height, shape=box, style=dashed];
+14[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+15[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+14 -> 15[arrowsize=0.5, style=dashed];
+}
+subgraph clusterTube016 {
+graph [
+bgcolor="#e0e0e0", label="Tube016&#92;n(Meridian_bypass_)", style="rounded,filled"];
+18[fixedsize=true, height=0, style=invis, width=0];
+19[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+20[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+21[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+}
+subgraph clusterTube006 {
+graph [
+bgcolor="#e0e0e0", label="Tube006&#92;n(Latitude)", style="rounded,filled"];
+22[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+170[fontsize="8pt", label=Height, shape=box, style=dashed];
+229[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+230[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+290[fixedsize=true, height=0, style=invis, width=0];
+22 -> 229[arrowsize=0.5, style=dashed];
+230 -> 170[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder018 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder018&#92;n(Lower_lat_spin_)", style="rounded,filled"];
+23[fontsize="8pt", label=Height, shape=box, style=dashed];
+25[fontsize="8pt", label=Radius, shape=box, style=dashed];
+414[fixedsize=true, height=0, style=invis, width=0];
+415[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterCylinder019 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder019&#92;n(Turtle_leg)", style="rounded,filled"];
+24[fontsize="8pt", label=Radius, shape=box, style=dashed];
+372[fixedsize=true, height=0, style=invis, width=0];
+373[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterTube015 {
+graph [
+bgcolor="#e0e0e0", label=Tube015, style="rounded,filled"];
+27[fixedsize=true, height=0, style=invis, width=0];
+28[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+29[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+30[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+33[fontsize="8pt", label=Height, shape=box, style=dashed];
+29 -> 33[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder013 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder013&#92;n(Axis_spinning002)", style="rounded,filled"];
+31[fontsize="8pt", label="Placement.Base.x", shape=box, style=dashed];
+32[fontsize="8pt", label="Placement.Base.y", shape=box, style=dashed];
+34[fontsize="8pt", label=Height, shape=box, style=dashed];
+35[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+46[fixedsize=true, height=0, style=invis, width=0];
+261[fontsize="8pt", label=Radius, shape=box, style=dashed];
+}
+subgraph clusterCylinder016 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder016&#92;n(Cylinder012 -Tool001)", style="rounded,filled"];
+38[fixedsize=true, height=0, style=invis, width=0];
+39[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+40[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+41[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+42[fontsize="8pt", label=Height, shape=box, style=dashed];
+43[fontsize="8pt", label=Radius, shape=box, style=dashed];
+41 -> 42[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder014 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder014&#92;n(Cylinder_Axle001)", style="rounded,filled"];
+44[fontsize="8pt", label=Height, shape=box, style=dashed];
+45[fontsize="8pt", label=Radius, shape=box, style=dashed];
+264[fixedsize=true, height=0, style=invis, width=0];
+265[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+266[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+267[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+267 -> 44[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox018 {
+graph [
+bgcolor="#e0e0e0", label="Box018&#92;n(Hoz-CE_link_50Deg_)", style="rounded,filled"];
+53[fixedsize=true, height=0, style=invis, width=0];
+54[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+55[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+56[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+58[fontsize="8pt", label=Width, shape=box, style=dashed];
+59[fontsize="8pt", label=Height, shape=box, style=dashed];
+55 -> 58[arrowsize=0.5, style=dashed];
+56 -> 59[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder001 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder001&#92;n(Horizon)", style="rounded,filled"];
+57[fontsize="8pt", label=Radius, shape=box, style=dashed];
+155[fontsize="8pt", label=Height, shape=box, style=dashed];
+220[fixedsize=true, height=0, style=invis, width=0];
+221[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+221 -> 155[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder011 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder011&#92;n(Axis_spinning001)", style="rounded,filled"];
+64[fixedsize=true, height=0, style=invis, width=0];
+65[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+66[fontsize="8pt", label=Height, shape=box, style=dashed];
+67[fontsize="8pt", label=Radius, shape=box, style=dashed];
+}
+subgraph clusterCylinder009 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder009&#92;n(Axis_spinning)", style="rounded,filled"];
+68[fontsize="8pt", label=Height, shape=box, style=dashed];
+69[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+70[fontsize="8pt", label=Radius, shape=box, style=dashed];
+138[fontsize="8pt", label="Placement.Base.x", shape=box, style=dashed];
+139[fontsize="8pt", label="Placement.Base.y", shape=box, style=dashed];
+311[fixedsize=true, height=0, style=invis, width=0];
+}
+subgraph clusterTube010 {
+graph [
+bgcolor="#e0e0e0", label="Tube010&#92;n(Lat_copy)", style="rounded,filled"];
+73[fixedsize=true, height=0, style=invis, width=0];
+74[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+75[fontsize="8pt", label=".Placement.Rotation.Angle", shape=box, style=dashed];
+76[fontsize="8pt", label=".Placement.Rotation.Axis.x", shape=box, style=dashed];
+77[fontsize="8pt", label=".Placement.Rotation.Axis.y", shape=box, style=dashed];
+78[fontsize="8pt", label=".Placement.Rotation.Axis.z", shape=box, style=dashed];
+}
+subgraph clusterCompound003 {
+graph [
+bgcolor="#e0e0e0", label="Compound003&#92;n(Latitude_Compound)", style="rounded,filled"];
+79[fontsize="8pt", label="Placement.Rotation.Angle", shape=box, style=dashed];
+80[fontsize="8pt", label="Placement.Rotation.Axis.x", shape=box, style=dashed];
+81[fontsize="8pt", label="Placement.Rotation.Axis.y", shape=box, style=dashed];
+82[fontsize="8pt", label="Placement.Rotation.Axis.z", shape=box, style=dashed];
+310[fixedsize=true, height=0, style=invis, width=0];
+}
+subgraph clusterBox016 {
+graph [
+bgcolor="#e0e0e0", label="Box016&#92;n(Horz-CE_link_South_)", style="rounded,filled"];
+85[fixedsize=true, height=0, style=invis, width=0];
+86[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+87[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+88[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+89[fontsize="8pt", label=Length, shape=box, style=dashed];
+91[fontsize="8pt", label=Height, shape=box, style=dashed];
+86 -> 89[arrowsize=0.5, style=dashed];
+88 -> 91[arrowsize=0.5, style=dashed];
+}
+subgraph clusterTube004 {
+graph [
+bgcolor="#e0e0e0", label="Tube004&#92;n(CE)", style="rounded,filled"];
+90[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+179[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+180[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+186[fontsize="8pt", label=Height, shape=box, style=dashed];
+252[fixedsize=true, height=0, style=invis, width=0];
+90 -> 179[arrowsize=0.5, style=dashed];
+180 -> 186[arrowsize=0.5, style=dashed];
+}
+subgraph clusterScrew001 {
+graph [
+bgcolor="#e0e0e0", label="Screw001&#92;n(M3x5-Screw001)", style="rounded,filled"];
+94[fixedsize=true, height=0, style=invis, width=0];
+95[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+96[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterBox010 {
+graph [
+bgcolor="#e0e0e0", label="Box010&#92;n(Mer_Hinge)", style="rounded,filled"];
+97[fontsize="8pt", label="Placement.Base.x", shape=box, style=dashed];
+98[fontsize="8pt", label=Height, shape=box, style=dashed];
+364[fixedsize=true, height=0, style=invis, width=0];
+365[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+366[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+367[fontsize="8pt", label=Width, shape=box, style=dashed];
+365 -> 367[arrowsize=0.5, style=dashed];
+366 -> 98[arrowsize=0.5, style=dashed];
+}
+subgraph clusterTube {
+graph [
+bgcolor="#e0e0e0", label=Tube, style="rounded,filled"];
+99[fixedsize=true, height=0, style=invis, width=0];
+100[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+101[fontsize="8pt", label=Height, shape=box, style=dashed];
+100 -> 101[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder003 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder003&#92;n(posistion_hole)", style="rounded,filled"];
+103[fixedsize=true, height=0, style=invis, width=0];
+104[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+105[fontsize="8pt", label=Radius, shape=box, style=dashed];
+104 -> 105[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox {
+graph [
+bgcolor="#e0e0e0", label="Box&#92;n(Major_mark)", style="rounded,filled"];
+108[fixedsize=true, height=0, style=invis, width=0];
+109[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+110[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+111[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+112[fontsize="8pt", label=Width, shape=box, style=dashed];
+113[fontsize="8pt", label=Length, shape=box, style=dashed];
+109 -> 113[arrowsize=0.5, style=dashed];
+}
+subgraph clusterTube003 {
+graph [
+bgcolor="#e0e0e0", label="Tube003&#92;n(Meridian)", style="rounded,filled"];
+114[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+115[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+116[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+222[fontsize="8pt", label=Height, shape=box, style=dashed];
+244[fixedsize=true, height=0, style=invis, width=0];
+115 -> 222[arrowsize=0.5, style=dashed];
+116 -> 114[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox005 {
+graph [
+bgcolor="#e0e0e0", label="Box005&#92;n(minor_mark001)", style="rounded,filled"];
+118[fixedsize=true, height=0, style=invis, width=0];
+119[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+120[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+121[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+122[fontsize="8pt", label=Width, shape=box, style=dashed];
+123[fontsize="8pt", label=Length, shape=box, style=dashed];
+119 -> 123[arrowsize=0.5, style=dashed];
+}
+subgraph clusterTube005 {
+graph [
+bgcolor="#e0e0e0", label="Tube005&#92;n(Ecliptic)", style="rounded,filled"];
+124[fontsize="8pt", label=InnerRadius, shape=box, style=dashed];
+125[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+126[fontsize="8pt", label=OuterRadius, shape=box, style=dashed];
+283[fontsize="8pt", label=Height, shape=box, style=dashed];
+292[fixedsize=true, height=0, style=invis, width=0];
+125 -> 283[arrowsize=0.5, style=dashed];
+126 -> 124[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox011 {
+graph [
+bgcolor="#e0e0e0", label="Box011&#92;n(Cube)", style="rounded,filled"];
+127[fixedsize=true, height=0, style=invis, width=0];
+128[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+129[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+130[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+131[fontsize="8pt", label=Length, shape=box, style=dashed];
+132[fontsize="8pt", label=Width, shape=box, style=dashed];
+133[fontsize="8pt", label=Height, shape=box, style=dashed];
+128 -> 131[arrowsize=0.5, style=dashed];
+129 -> 132[arrowsize=0.5, style=dashed];
+130 -> 133[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder010 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder010&#92;n(Cylinder_Axle)", style="rounded,filled"];
+134[fixedsize=true, height=0, style=invis, width=0];
+135[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+136[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+137[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+140[fontsize="8pt", label=Height, shape=box, style=dashed];
+193[fontsize="8pt", label=Radius, shape=box, style=dashed];
+137 -> 140[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox009 {
+graph [
+bgcolor="#e0e0e0", label="Box009&#92;n(Hinge_)", style="rounded,filled"];
+144[fixedsize=true, height=0, style=invis, width=0];
+145[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+146[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+147[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+148[fontsize="8pt", label=Length, shape=box, style=dashed];
+149[fontsize="8pt", label=Width, shape=box, style=dashed];
+150[fontsize="8pt", label=Height, shape=box, style=dashed];
+145 -> 148[arrowsize=0.5, style=dashed];
+146 -> 149[arrowsize=0.5, style=dashed];
+147 -> 150[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString010 {
+graph [
+bgcolor="#e0e0e0", label="ShapeString010&#92;n(East001)", style="rounded,filled"];
+151[fixedsize=true, height=0, style=invis, width=0];
+152[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+153[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+154[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterCylinder004 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder004&#92;n(posistion_hole001)", style="rounded,filled"];
+159[fixedsize=true, height=0, style=invis, width=0];
+160[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+161[fontsize="8pt", label=Radius, shape=box, style=dashed];
+160 -> 161[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString003 {
+graph [
+bgcolor="#e0e0e0", label=ShapeString003, style="rounded,filled"];
+165[fixedsize=true, height=0, style=invis, width=0];
+166[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+167[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+168[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+169[fontsize="8pt", label=Size, shape=box, style=dashed];
+166 -> 169[arrowsize=0.5, style=dashed];
+167 -> 169[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox003 {
+graph [
+bgcolor="#e0e0e0", label="Box003&#92;n(CE_minor_mark)", style="rounded,filled"];
+173[fixedsize=true, height=0, style=invis, width=0];
+174[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+175[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+176[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+177[fontsize="8pt", label=Width, shape=box, style=dashed];
+178[fontsize="8pt", label=Length, shape=box, style=dashed];
+174 -> 178[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString001 {
+graph [
+bgcolor="#e0e0e0", label=ShapeString001, style="rounded,filled"];
+181[fixedsize=true, height=0, style=invis, width=0];
+182[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+183[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+184[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+185[fontsize="8pt", label=Size, shape=box, style=dashed];
+183 -> 185[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder012 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder012&#92;n(Cylinder012 -Tool)", style="rounded,filled"];
+187[fixedsize=true, height=0, style=invis, width=0];
+188[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+189[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+190[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+191[fontsize="8pt", label=Height, shape=box, style=dashed];
+192[fontsize="8pt", label=Radius, shape=box, style=dashed];
+190 -> 191[arrowsize=0.5, style=dashed];
+}
+subgraph clusterScrew {
+graph [
+bgcolor="#e0e0e0", label="Screw&#92;n(M3x5-Screw)", style="rounded,filled"];
+196[fixedsize=true, height=0, style=invis, width=0];
+197[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+198[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterTube011 {
+graph [
+bgcolor="#e0e0e0", label=Tube011, style="rounded,filled"];
+201[fixedsize=true, height=0, style=invis, width=0];
+202[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+203[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+204[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+205[fontsize="8pt", label=Height, shape=box, style=dashed];
+203 -> 205[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString009 {
+graph [
+bgcolor="#e0e0e0", label="ShapeString009&#92;n(South)", style="rounded,filled"];
+207[fixedsize=true, height=0, style=invis, width=0];
+208[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+209[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+210[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterBox001 {
+graph [
+bgcolor="#e0e0e0", label="Box001&#92;n(minor_mark)", style="rounded,filled"];
+211[fixedsize=true, height=0, style=invis, width=0];
+212[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+213[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+214[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+215[fontsize="8pt", label=Width, shape=box, style=dashed];
+216[fontsize="8pt", label=Length, shape=box, style=dashed];
+212 -> 216[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder {
+graph [
+bgcolor="#e0e0e0", label="Cylinder&#92;n(Planet Axis)", style="rounded,filled"];
+217[fixedsize=true, height=0, style=invis, width=0];
+218[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+219[fontsize="8pt", label=Height, shape=box, style=dashed];
+218 -> 219[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox006 {
+graph [
+bgcolor="#e0e0e0", label="Box006&#92;n(Major_mark002)", style="rounded,filled"];
+223[fixedsize=true, height=0, style=invis, width=0];
+224[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+225[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+226[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+227[fontsize="8pt", label=Width, shape=box, style=dashed];
+228[fontsize="8pt", label=Length, shape=box, style=dashed];
+224 -> 228[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox007 {
+graph [
+bgcolor="#e0e0e0", label="Box007&#92;n(minor_mark002)", style="rounded,filled"];
+237[fixedsize=true, height=0, style=invis, width=0];
+238[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+239[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+240[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+241[fontsize="8pt", label=Width, shape=box, style=dashed];
+242[fontsize="8pt", label=Length, shape=box, style=dashed];
+238 -> 242[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString {
+graph [
+bgcolor="#e0e0e0", label=ShapeString, style="rounded,filled"];
+246[fixedsize=true, height=0, style=invis, width=0];
+247[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+248[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+249[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+250[fontsize="8pt", label=Size, shape=box, style=dashed];
+247 -> 250[arrowsize=0.5, style=dashed];
+248 -> 250[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder005 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder005&#92;n(posistion_hole002)", style="rounded,filled"];
+253[fixedsize=true, height=0, style=invis, width=0];
+254[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+255[fontsize="8pt", label=Radius, shape=box, style=dashed];
+254 -> 255[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder015 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder015&#92;n(Axis_spinning003)", style="rounded,filled"];
+257[fixedsize=true, height=0, style=invis, width=0];
+258[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+259[fontsize="8pt", label=Height, shape=box, style=dashed];
+260[fontsize="8pt", label=Radius, shape=box, style=dashed];
+}
+subgraph clusterBox004 {
+graph [
+bgcolor="#e0e0e0", label="Box004&#92;n(Major_mark001)", style="rounded,filled"];
+268[fixedsize=true, height=0, style=invis, width=0];
+269[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+270[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+271[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+272[fontsize="8pt", label=Width, shape=box, style=dashed];
+273[fontsize="8pt", label=Length, shape=box, style=dashed];
+269 -> 273[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCompound002 {
+graph [
+bgcolor="#e0e0e0", label="Compound002&#92;n(Ecliptic_Compound)", style="rounded,filled"];
+274[fixedsize=true, height=0, style=invis, width=0];
+275[fontsize="8pt", label=".Placement.Rotation.Angle", shape=box, style=dashed];
+}
+subgraph clusterCompound001 {
+graph [
+bgcolor="#e0e0e0", label="Compound001&#92;n(CE_Compound)", style="rounded,filled"];
+276[fontsize="8pt", label="Placement.Rotation.Angle", shape=box, style=dashed];
+287[fixedsize=true, height=0, style=invis, width=0];
+}
+subgraph clusterShapeString002 {
+graph [
+bgcolor="#e0e0e0", label=ShapeString002, style="rounded,filled"];
+278[fixedsize=true, height=0, style=invis, width=0];
+279[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+280[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+281[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+282[fontsize="8pt", label=Size, shape=box, style=dashed];
+279 -> 282[arrowsize=0.5, style=dashed];
+280 -> 282[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox019 {
+graph [
+bgcolor="#e0e0e0", label="Box019&#92;n(Hoz-CE_link_West_50Deg_)", style="rounded,filled"];
+294[fixedsize=true, height=0, style=invis, width=0];
+295[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+296[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+297[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+298[fontsize="8pt", label=Length, shape=box, style=dashed];
+299[fontsize="8pt", label=Width, shape=box, style=dashed];
+300[fontsize="8pt", label=Height, shape=box, style=dashed];
+295 -> 298[arrowsize=0.5, style=dashed];
+296 -> 299[arrowsize=0.5, style=dashed];
+297 -> 300[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox013 {
+graph [
+bgcolor="#e0e0e0", label="Box013&#92;n(Cube001)", style="rounded,filled"];
+301[fixedsize=true, height=0, style=invis, width=0];
+302[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+303[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+304[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+305[fontsize="8pt", label=".Placement.Rotation.Axis.y", shape=box, style=dashed];
+306[fontsize="8pt", label=".Placement.Rotation.Axis.z", shape=box, style=dashed];
+307[fontsize="8pt", label=Length, shape=box, style=dashed];
+308[fontsize="8pt", label=Width, shape=box, style=dashed];
+309[fontsize="8pt", label=Height, shape=box, style=dashed];
+302 -> 307[arrowsize=0.5, style=dashed];
+303 -> 308[arrowsize=0.5, style=dashed];
+304 -> 309[arrowsize=0.5, style=dashed];
+305 -> 308[arrowsize=0.5, style=dashed];
+306 -> 309[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox002 {
+graph [
+bgcolor="#e0e0e0", label="Box002&#92;n(CE_major_mark)", style="rounded,filled"];
+315[fixedsize=true, height=0, style=invis, width=0];
+316[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+317[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+318[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+319[fontsize="8pt", label=Width, shape=box, style=dashed];
+320[fontsize="8pt", label=Length, shape=box, style=dashed];
+316 -> 320[arrowsize=0.5, style=dashed];
+}
+subgraph clusterCylinder006 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder006&#92;n(posistion_hole003)", style="rounded,filled"];
+323[fixedsize=true, height=0, style=invis, width=0];
+324[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+325[fontsize="8pt", label=Radius, shape=box, style=dashed];
+324 -> 325[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString011 {
+graph [
+bgcolor="#e0e0e0", label="ShapeString011&#92;n(West)", style="rounded,filled"];
+327[fixedsize=true, height=0, style=invis, width=0];
+328[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+329[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+330[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterCylinder007 {
+graph [
+bgcolor="#e0e0e0", label="Cylinder007&#92;n(posistion_hole004)", style="rounded,filled"];
+331[fixedsize=true, height=0, style=invis, width=0];
+332[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+333[fontsize="8pt", label=Radius, shape=box, style=dashed];
+332 -> 333[arrowsize=0.5, style=dashed];
+}
+subgraph clusterShapeString008 {
+graph [
+bgcolor="#e0e0e0", label="ShapeString008&#92;n(North)", style="rounded,filled"];
+336[fixedsize=true, height=0, style=invis, width=0];
+337[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+338[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+339[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterCompound005 {
+graph [
+bgcolor="#e0e0e0", label="Compound005&#92;n(CompassPts)", style="rounded,filled"];
+344[fixedsize=true, height=0, style=invis, width=0];
+345[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+}
+subgraph clusterTube009 {
+graph [
+bgcolor="#e0e0e0", label="Tube009&#92;n(Meridian_copy)", style="rounded,filled"];
+351[fixedsize=true, height=0, style=invis, width=0];
+352[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+353[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+354[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+355[fontsize="8pt", label=".Placement.Rotation.Angle", shape=box, style=dashed];
+356[fontsize="8pt", label=".Placement.Rotation.Axis.x", shape=box, style=dashed];
+357[fontsize="8pt", label=".Placement.Rotation.Axis.y", shape=box, style=dashed];
+358[fontsize="8pt", label=".Placement.Rotation.Axis.z", shape=box, style=dashed];
+}
+subgraph clusterCompound {
+graph [
+bgcolor="#e0e0e0", label="Compound&#92;n(Meridian_Compound)", style="rounded,filled"];
+359[fontsize="8pt", label="Placement.Base.z", shape=box, style=dashed];
+360[fontsize="8pt", label="Placement.Rotation.Angle", shape=box, style=dashed];
+361[fontsize="8pt", label="Placement.Rotation.Axis.x", shape=box, style=dashed];
+362[fontsize="8pt", label="Placement.Rotation.Axis.y", shape=box, style=dashed];
+363[fontsize="8pt", label="Placement.Rotation.Axis.z", shape=box, style=dashed];
+384[fixedsize=true, height=0, style=invis, width=0];
+}
+subgraph clusterBox017 {
+graph [
+bgcolor="#e0e0e0", label="Box017&#92;n(Mer-Lat_link_Zenith_)", style="rounded,filled"];
+377[fixedsize=true, height=0, style=invis, width=0];
+378[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+379[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+380[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+381[fontsize="8pt", label=Length, shape=box, style=dashed];
+382[fontsize="8pt", label=Width, shape=box, style=dashed];
+383[fontsize="8pt", label=Height, shape=box, style=dashed];
+378 -> 381[arrowsize=0.5, style=dashed];
+379 -> 382[arrowsize=0.5, style=dashed];
+380 -> 383[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox008 {
+graph [
+bgcolor="#e0e0e0", label="Box008&#92;n(HorizonRadi)", style="rounded,filled"];
+395[fixedsize=true, height=0, style=invis, width=0];
+396[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+397[fontsize="8pt", label=Length, shape=box, style=dashed];
+}
+subgraph clusterTube007 {
+graph [
+bgcolor="#e0e0e0", label="Tube007&#92;n(Ecliptic_copy)", style="rounded,filled"];
+402[fixedsize=true, height=0, style=invis, width=0];
+403[fontsize="8pt", label=".Placement.Rotation.Angle", shape=box, style=dashed];
+}
+subgraph clusterBox012 {
+graph [
+bgcolor="#e0e0e0", label="Box012&#92;n(CE_Ecliptic_link)", style="rounded,filled"];
+406[fixedsize=true, height=0, style=invis, width=0];
+407[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+408[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+409[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+410[fontsize="8pt", label=Width, shape=box, style=dashed];
+411[fontsize="8pt", label=Height, shape=box, style=dashed];
+408 -> 410[arrowsize=0.5, style=dashed];
+409 -> 411[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox014 {
+graph [
+bgcolor="#e0e0e0", label="Box014&#92;n(Meridian_CE_link_West_)", style="rounded,filled"];
+416[fixedsize=true, height=0, style=invis, width=0];
+417[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+418[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+419[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+420[fontsize="8pt", label=Width, shape=box, style=dashed];
+421[fontsize="8pt", label=Height, shape=box, style=dashed];
+418 -> 420[arrowsize=0.5, style=dashed];
+419 -> 421[arrowsize=0.5, style=dashed];
+}
+subgraph clusterBox015 {
+graph [
+bgcolor="#e0e0e0", label="Box015&#92;n(Horz-CE_Link_North_)", style="rounded,filled"];
+424[fixedsize=true, height=0, style=invis, width=0];
+425[fontsize="8pt", label=".Placement.Base.x", shape=box, style=dashed];
+426[fontsize="8pt", label=".Placement.Base.y", shape=box, style=dashed];
+427[fontsize="8pt", label=".Placement.Base.z", shape=box, style=dashed];
+428[fontsize="8pt", label=Length, shape=box, style=dashed];
+429[fontsize="8pt", label=Width, shape=box, style=dashed];
+430[fontsize="8pt", label=Height, shape=box, style=dashed];
+425 -> 428[arrowsize=0.5, style=dashed];
+426 -> 429[arrowsize=0.5, style=dashed];
+427 -> 430[arrowsize=0.5, style=dashed];
+}
+0[label=Fusion005, shape=Mrecord, style=filled];
+1[label="Cut040&#92;n(Turtle)", shape=Mrecord, style=filled];
+2[label="Cut039&#92;n(Turtle_leg_knotched)", shape=Mrecord, style=filled];
+3[label="Cut038&#92;n(Mount_Arc_Fussion)", shape=Mrecord, style=filled];
+4[label="Cut037&#92;n(Meridian_Bypass)", shape=Mrecord, style=filled];
+5[label="Cut041&#92;n(Turtle__Lat_link)", shape=Mrecord, style=filled];
+6[label=Cylinder024, shape=Mrecord, style=filled];
+7[label="Cylinder022&#92;n(Pivot_key)", shape=Mrecord, style=filled];
+36[label=Cut030, shape=Mrecord, style=filled];
+37[label="Fusion003&#92;n(Hoz_CE_Spin)", shape=Mrecord, style=filled];
+47[label="Cut027&#92;n(Stand)", shape=Mrecord, style=filled];
+48[label="Tube014&#92;n(Latitude001)", shape=Mrecord, style=filled];
+49[label=Tube013, shape=Mrecord, style=filled];
+50[label="Cut026&#92;n(Hoz-CE_link_West_38Deg)", shape=Mrecord, style=filled];
+51[label=Cut025, shape=Mrecord, style=filled];
+52[label=Cut023, shape=Mrecord, style=filled];
+60[label="Fusion001&#92;n(Latitude_Spin)", shape=Mrecord, style=filled];
+61[label="Cut021&#92;n(Cylinder Top)", shape=Mrecord, style=filled];
+62[label="Cut024&#92;n(Hoz-CE_link_38Deg)", shape=Mrecord, style=filled];
+63[label=Fusion, shape=Mrecord, style=filled];
+71[label="Cut020&#92;n(Mer-Lat_link_Zenith)", shape=Mrecord, style=filled];
+72[label="Cut019&#92;n()", shape=Mrecord, style=filled];
+83[label="Cut018&#92;n(Horz-CE_link_South)", shape=Mrecord, style=filled];
+84[label=Cut017, shape=Mrecord, style=filled];
+92[label="Array010&#92;n(Meridian_posistion_hole_array)", shape=Mrecord, style=filled];
+93[label="Array009&#92;n(posistion_hole_array)", shape=Mrecord, style=filled];
+102[label="Cut022&#92;n(Cylinder Bottom)", shape=Mrecord, style=filled];
+106[label="Array006&#92;n(Latitude_Major_mark_arrray001)", shape=Mrecord, style=filled];
+107[label="Cut006&#92;n(Mer_Hinge_threaded)", shape=Mrecord, style=filled];
+117[label="Cylinder002&#92;n(Cylinder)", shape=Mrecord, style=filled];
+141[label=Fillet001, shape=Mrecord, style=filled];
+142[label="Compound004&#92;n(Planet_Horizon)", shape=Mrecord, style=filled];
+143[label=Shape2DView012, shape=Mrecord, style=filled];
+156[label="Fillet002&#92;n(posistion_hole_array001)", shape=Mrecord, style=filled];
+157[label=Shape, shape=Mrecord, style=filled];
+158[label=ShapeString007, shape=Mrecord, style=filled];
+162[label=ShapeString006, shape=Mrecord, style=filled];
+163[label="Array013&#92;n(Latitude_posistion_hole_array)", shape=Mrecord, style=filled];
+164[label=ShapeString005, shape=Mrecord, style=filled];
+171[label="Cut033&#92;n(Mount_Arc_Fussion Drilled )", shape=Mrecord, style=filled];
+172[label="Compound007&#92;n(Etchng)", shape=Mrecord, style=filled];
+194[label="Compound006&#92;n(labels)", shape=Mrecord, style=filled];
+195[label="Array003&#92;n(Mer_minor_mark_array001)", shape=Mrecord, style=filled];
+199[label=Shape2DView025, shape=Mrecord, style=filled];
+200[label=Shape2DView033, shape=Mrecord, style=filled];
+206[label=Cut009, shape=Mrecord, style=filled];
+231[label="Tube012&#92;n(CE_copy_38deg)", shape=Mrecord, style=filled];
+232[label="Array002&#92;n(CE_Major_mark_arrray)", shape=Mrecord, style=filled];
+233[label=Fillet, shape=Mrecord, style=filled];
+234[label="Tube008&#92;n(CE_copy)", shape=Mrecord, style=filled];
+235[label="Array005&#92;n(Ecliptic_minor_mark_array)", shape=Mrecord, style=filled];
+236[label=Cut001, shape=Mrecord, style=filled];
+243[label="Cut003&#92;n(Hinge_cut)", shape=Mrecord, style=filled];
+245[label=Shape2DView005, shape=Mrecord, style=filled];
+251[label=Cut002, shape=Mrecord, style=filled];
+256[label="Array004&#92;n(Ecliptic_major_mark_arrray)", shape=Mrecord, style=filled];
+262[label="Cut&#92;n(Hinge_cut_)", shape=Mrecord, style=filled];
+263[label="Array008&#92;n(Radi_array)", shape=Mrecord, style=filled];
+277[label=Shape2DView021, shape=Mrecord, style=filled];
+284[label="Cut028&#92;n(Cylinder Top001)", shape=Mrecord, style=filled];
+285[label="Array001&#92;n(minor_mark_array)", shape=Mrecord, style=filled];
+286[label=Shape2DView010, shape=Mrecord, style=filled];
+288[label="Compound009&#92;n(Cutting _pos_holes)", shape=Mrecord, style=filled];
+289[label="Array012&#92;n(Ecleptic_posistion_hole_array)", shape=Mrecord, style=filled];
+291[label="Cut004&#92;n(Mer_hinge_cut)", shape=Mrecord, style=filled];
+293[label=Shape2DView024, shape=Mrecord, style=filled];
+312[label="Cut005&#92;n(Hinge_threaded)", shape=Mrecord, style=filled];
+313[label=ShapeString004, shape=Mrecord, style=filled];
+314[label="Array007&#92;n(Latitude_minor_mark_array)", shape=Mrecord, style=filled];
+321[label="Cut008&#92;n(CE_Ecliptic_link_East)", shape=Mrecord, style=filled];
+322[label="Array011&#92;n(CE_posistion_hole_array)", shape=Mrecord, style=filled];
+326[label="Cut029&#92;n(Cylinder Bottom001)", shape=Mrecord, style=filled];
+334[label=Shape2DView014, shape=Mrecord, style=filled];
+335[label=Shape2DView031, shape=Mrecord, style=filled];
+340[label=Shape2DView, shape=Mrecord, style=filled];
+341[label=Shape2DView001, shape=Mrecord, style=filled];
+342[label="Cylinder021&#92;n(Pivot_tool)", shape=Mrecord, style=filled];
+343[label=Shape2DView002, shape=Mrecord, style=filled];
+346[label=Shape2DView003, shape=Mrecord, style=filled];
+347[label=Shape2DView006, shape=Mrecord, style=filled];
+348[label=Shape2DView026, shape=Mrecord, style=filled];
+349[label=Shape2DView004, shape=Mrecord, style=filled];
+350[label=Shape2DView007, shape=Mrecord, style=filled];
+368[label=Shape2DView008, shape=Mrecord, style=filled];
+369[label=Fusion002, shape=Mrecord, style=filled];
+370[label=Shape2DView009, shape=Mrecord, style=filled];
+371[label=Shape2DView011, shape=Mrecord, style=filled];
+374[label=Shape2DView030, shape=Mrecord, style=filled];
+375[label=Shape2DView013, shape=Mrecord, style=filled];
+376[label=Shape2DView015, shape=Mrecord, style=filled];
+385[label=Shape2DView016, shape=Mrecord, style=filled];
+386[label=Shape2DView017, shape=Mrecord, style=filled];
+387[label=Cut007, shape=Mrecord, style=filled];
+388[label=Shape2DView018, shape=Mrecord, style=filled];
+389[label=Shape2DView019, shape=Mrecord, style=filled];
+390[label=Shape2DView020, shape=Mrecord, style=filled];
+391[label=Shape2DView022, shape=Mrecord, style=filled];
+392[label=Shape2DView023, shape=Mrecord, style=filled];
+393[label="Cut010&#92;n(CE_Ecliptic_link_west)", shape=Mrecord, style=filled];
+394[label=Shape2DView027, shape=Mrecord, style=filled];
+398[label=Shape2DView029, shape=Mrecord, style=filled];
+399[label="Compound008&#92;n(Cutting)", shape=Mrecord, style=filled];
+400[label=Shape2DView034, shape=Mrecord, style=filled];
+401[label=Shape2DView028, shape=Mrecord, style=filled];
+404[label="Array&#92;n(Major_mark_arrray)", shape=Mrecord, style=filled];
+405[label=Shape2DView032, shape=Mrecord, style=filled];
+412[label=Cut011, shape=Mrecord, style=filled];
+413[label="Cut012&#92;n(Meridian-CE_link _east)", shape=Mrecord, style=filled];
+422[label=Cut013, shape=Mrecord, style=filled];
+423[label="Cut014&#92;n(Meridian_CE_Link_West)", shape=Mrecord, style=filled];
+431[label="Cylinder008&#92;n(Horizon001)", shape=Mrecord, style=filled];
+432[label="Fusion004&#92;n(Mount Arc Fussion)", shape=Mrecord, style=filled];
+433[label=Cut015, shape=Mrecord, style=filled];
+434[label="Cut016&#92;n(Horz-CE_Link_North)", shape=Mrecord, style=filled];
+0 -> 414[lhead=clusterCylinder018];
+0 -> 1;
+1 -> 2;
+1 -> 7;
+2 -> 372[lhead=clusterCylinder019];
+2 -> 26[lhead=clusterCylinder017];
+3 -> 171;
+3 -> 6;
+4 -> 18[lhead=clusterTube016];
+4 -> 351[lhead=clusterTube009];
+5 -> 0;
+5 -> 73[lhead=clusterTube010];
+9 -> 10[arrowsize=0.5, style=dashed];
+12 -> 16[arrowsize=0.5, style=dashed];
+13 -> 17[arrowsize=0.5, style=dashed];
+15 -> 10[arrowsize=0.5, style=dashed];
+19 -> 22[arrowsize=0.5, style=dashed];
+19 -> 23[arrowsize=0.5, style=dashed];
+20 -> 24[arrowsize=0.5, style=dashed];
+21 -> 25[arrowsize=0.5, style=dashed];
+28 -> 31[arrowsize=0.5, style=dashed];
+29 -> 32[arrowsize=0.5, style=dashed];
+30 -> 34[arrowsize=0.5, style=dashed];
+30 -> 35[arrowsize=0.5, style=dashed];
+36 -> 26[lhead=clusterCylinder017];
+36 -> 11[lhead=clusterTube017];
+37 -> 264[lhead=clusterCylinder014];
+37 -> 284;
+37 -> 326;
+39 -> 31[arrowsize=0.5, style=dashed];
+40 -> 32[arrowsize=0.5, style=dashed];
+41 -> 34[arrowsize=0.5, style=dashed];
+41 -> 35[arrowsize=0.5, style=dashed];
+42 -> 44[arrowsize=0.5, style=dashed];
+43 -> 45[arrowsize=0.5, style=dashed];
+47 -> 49;
+47 -> 48;
+50 -> 51;
+50 -> 431;
+51 -> 294[lhead=clusterBox019];
+51 -> 231;
+52 -> 53[lhead=clusterBox018];
+52 -> 231;
+54 -> 57[arrowsize=0.5, style=dashed];
+57 -> 114[arrowsize=0.5, style=dashed];
+60 -> 134[lhead=clusterCylinder010];
+60 -> 61;
+60 -> 102;
+61 -> 311[lhead=clusterCylinder009];
+61 -> 63;
+62 -> 52;
+62 -> 431;
+63 -> 187[lhead=clusterCylinder012];
+63 -> 201[lhead=clusterTube011];
+65 -> 68[arrowsize=0.5, style=dashed];
+65 -> 69[arrowsize=0.5, style=dashed];
+67 -> 70[arrowsize=0.5, style=dashed];
+71 -> 72;
+71 -> 73[lhead=clusterTube010];
+72 -> 377[lhead=clusterBox017];
+72 -> 351[lhead=clusterTube009];
+75 -> 79[arrowsize=0.5, style=dashed];
+76 -> 80[arrowsize=0.5, style=dashed];
+77 -> 81[arrowsize=0.5, style=dashed];
+78 -> 82[arrowsize=0.5, style=dashed];
+83 -> 84;
+83 -> 234;
+84 -> 85[lhead=clusterBox016];
+84 -> 431;
+87 -> 90[arrowsize=0.5, style=dashed];
+92 -> 159[lhead=clusterCylinder004];
+93 -> 103[lhead=clusterCylinder003];
+95 -> 97[arrowsize=0.5, style=dashed];
+96 -> 98[arrowsize=0.5, style=dashed];
+97 -> 114[arrowsize=0.5, style=dashed];
+98 -> 150[arrowsize=0.5, style=dashed];
+100 -> 57[arrowsize=0.5, style=dashed];
+102 -> 64[lhead=clusterCylinder011];
+102 -> 63;
+104 -> 57[arrowsize=0.5, style=dashed];
+106 -> 223[lhead=clusterBox006];
+107 -> 291;
+107 -> 94[lhead=clusterScrew001];
+110 -> 114[arrowsize=0.5, style=dashed];
+111 -> 115[arrowsize=0.5, style=dashed];
+112 -> 114[arrowsize=0.5, style=dashed];
+112 -> 116[arrowsize=0.5, style=dashed];
+120 -> 124[arrowsize=0.5, style=dashed];
+121 -> 125[arrowsize=0.5, style=dashed];
+122 -> 124[arrowsize=0.5, style=dashed];
+122 -> 126[arrowsize=0.5, style=dashed];
+124 -> 90[arrowsize=0.5, style=dashed];
+128 -> 126[arrowsize=0.5, style=dashed];
+135 -> 138[arrowsize=0.5, style=dashed];
+136 -> 139[arrowsize=0.5, style=dashed];
+137 -> 68[arrowsize=0.5, style=dashed];
+137 -> 69[arrowsize=0.5, style=dashed];
+141 -> 364[lhead=clusterBox010];
+142 -> 217[lhead=clusterCylinder];
+142 -> 220[lhead=clusterCylinder001];
+142 -> 194;
+142 -> 93;
+143 -> 235;
+145 -> 57[arrowsize=0.5, style=dashed];
+152 -> 57[arrowsize=0.5, style=dashed];
+154 -> 155[arrowsize=0.5, style=dashed];
+155 -> 222[arrowsize=0.5, style=dashed];
+156 -> 99[lhead=clusterTube];
+160 -> 116[arrowsize=0.5, style=dashed];
+163 -> 331[lhead=clusterCylinder007];
+167 -> 22[arrowsize=0.5, style=dashed];
+168 -> 170[arrowsize=0.5, style=dashed];
+170 -> 222[arrowsize=0.5, style=dashed];
+171 -> 432;
+171 -> 342;
+172 -> 340;
+172 -> 341;
+172 -> 343;
+172 -> 346;
+172 -> 349;
+172 -> 245;
+172 -> 347;
+172 -> 350;
+172 -> 368;
+172 -> 370;
+172 -> 286;
+172 -> 371;
+172 -> 143;
+172 -> 375;
+172 -> 334;
+172 -> 376;
+172 -> 385;
+172 -> 386;
+172 -> 388;
+172 -> 389;
+172 -> 390;
+172 -> 277;
+172 -> 391;
+172 -> 392;
+172 -> 293;
+175 -> 179[arrowsize=0.5, style=dashed];
+176 -> 180[arrowsize=0.5, style=dashed];
+177 -> 179[arrowsize=0.5, style=dashed];
+177 -> 90[arrowsize=0.5, style=dashed];
+179 -> 116[arrowsize=0.5, style=dashed];
+183 -> 90[arrowsize=0.5, style=dashed];
+184 -> 186[arrowsize=0.5, style=dashed];
+186 -> 222[arrowsize=0.5, style=dashed];
+188 -> 138[arrowsize=0.5, style=dashed];
+189 -> 139[arrowsize=0.5, style=dashed];
+190 -> 68[arrowsize=0.5, style=dashed];
+190 -> 69[arrowsize=0.5, style=dashed];
+191 -> 140[arrowsize=0.5, style=dashed];
+192 -> 193[arrowsize=0.5, style=dashed];
+194 -> 336[lhead=clusterShapeString008];
+194 -> 207[lhead=clusterShapeString009];
+194 -> 151[lhead=clusterShapeString010];
+194 -> 327[lhead=clusterShapeString011];
+194 -> 263;
+195 -> 173[lhead=clusterBox003];
+197 -> 145[arrowsize=0.5, style=dashed];
+198 -> 150[arrowsize=0.5, style=dashed];
+199 -> 244[lhead=clusterTube003];
+200 -> 322;
+202 -> 138[arrowsize=0.5, style=dashed];
+203 -> 139[arrowsize=0.5, style=dashed];
+204 -> 68[arrowsize=0.5, style=dashed];
+204 -> 69[arrowsize=0.5, style=dashed];
+206 -> 406[lhead=clusterBox012];
+206 -> 402[lhead=clusterTube007];
+209 -> 57[arrowsize=0.5, style=dashed];
+210 -> 155[arrowsize=0.5, style=dashed];
+213 -> 114[arrowsize=0.5, style=dashed];
+214 -> 115[arrowsize=0.5, style=dashed];
+215 -> 114[arrowsize=0.5, style=dashed];
+215 -> 116[arrowsize=0.5, style=dashed];
+219 -> 22[arrowsize=0.5, style=dashed];
+225 -> 229[arrowsize=0.5, style=dashed];
+226 -> 230[arrowsize=0.5, style=dashed];
+227 -> 229[arrowsize=0.5, style=dashed];
+227 -> 22[arrowsize=0.5, style=dashed];
+229 -> 126[arrowsize=0.5, style=dashed];
+232 -> 315[lhead=clusterBox002];
+233 -> 144[lhead=clusterBox009];
+235 -> 118[lhead=clusterBox005];
+236 -> 262;
+236 -> 244[lhead=clusterTube003];
+239 -> 229[arrowsize=0.5, style=dashed];
+240 -> 230[arrowsize=0.5, style=dashed];
+241 -> 229[arrowsize=0.5, style=dashed];
+241 -> 22[arrowsize=0.5, style=dashed];
+243 -> 236;
+243 -> 117;
+245 -> 252[lhead=clusterTube004];
+248 -> 116[arrowsize=0.5, style=dashed];
+249 -> 222[arrowsize=0.5, style=dashed];
+251 -> 141;
+251 -> 244[lhead=clusterTube003];
+254 -> 90[arrowsize=0.5, style=dashed];
+256 -> 268[lhead=clusterBox004];
+258 -> 34[arrowsize=0.5, style=dashed];
+258 -> 35[arrowsize=0.5, style=dashed];
+259 -> 34[arrowsize=0.5, style=dashed];
+260 -> 261[arrowsize=0.5, style=dashed];
+262 -> 233;
+262 -> 220[lhead=clusterCylinder001];
+263 -> 395[lhead=clusterBox008];
+265 -> 31[arrowsize=0.5, style=dashed];
+266 -> 32[arrowsize=0.5, style=dashed];
+267 -> 34[arrowsize=0.5, style=dashed];
+267 -> 35[arrowsize=0.5, style=dashed];
+270 -> 124[arrowsize=0.5, style=dashed];
+271 -> 125[arrowsize=0.5, style=dashed];
+272 -> 124[arrowsize=0.5, style=dashed];
+272 -> 126[arrowsize=0.5, style=dashed];
+274 -> 292[lhead=clusterTube005, ltail=clusterCompound002];
+274 -> 256[ltail=clusterCompound002];
+274 -> 235[ltail=clusterCompound002];
+274 -> 278[lhead=clusterShapeString002, ltail=clusterCompound002];
+274 -> 289[ltail=clusterCompound002];
+275 -> 276[arrowsize=0.5, style=dashed];
+277 -> 220[lhead=clusterCylinder001];
+280 -> 126[arrowsize=0.5, style=dashed];
+281 -> 283[arrowsize=0.5, style=dashed];
+283 -> 222[arrowsize=0.5, style=dashed];
+284 -> 46[lhead=clusterCylinder013];
+284 -> 369;
+285 -> 211[lhead=clusterBox001];
+286 -> 292[lhead=clusterTube005];
+287 -> 252[lhead=clusterTube004, ltail=clusterCompound001];
+287 -> 232[ltail=clusterCompound001];
+287 -> 195[ltail=clusterCompound001];
+287 -> 181[lhead=clusterShapeString001, ltail=clusterCompound001];
+287 -> 322[ltail=clusterCompound001];
+288 -> 374;
+288 -> 400;
+288 -> 200;
+288 -> 405;
+288 -> 335;
+289 -> 323[lhead=clusterCylinder006];
+291 -> 251;
+291 -> 117;
+293 -> 93;
+295 -> 57[arrowsize=0.5, style=dashed];
+302 -> 179[arrowsize=0.5, style=dashed];
+302 -> 90[arrowsize=0.5, style=dashed];
+310 -> 290[lhead=clusterTube006, ltail=clusterCompound003];
+310 -> 106[ltail=clusterCompound003];
+310 -> 314[ltail=clusterCompound003];
+310 -> 165[lhead=clusterShapeString003, ltail=clusterCompound003];
+310 -> 163[ltail=clusterCompound003];
+312 -> 243;
+312 -> 196[lhead=clusterScrew];
+314 -> 237[lhead=clusterBox007];
+317 -> 179[arrowsize=0.5, style=dashed];
+318 -> 180[arrowsize=0.5, style=dashed];
+319 -> 179[arrowsize=0.5, style=dashed];
+319 -> 90[arrowsize=0.5, style=dashed];
+321 -> 387;
+321 -> 234;
+322 -> 253[lhead=clusterCylinder005];
+324 -> 126[arrowsize=0.5, style=dashed];
+326 -> 257[lhead=clusterCylinder015];
+326 -> 369;
+328 -> 57[arrowsize=0.5, style=dashed];
+330 -> 155[arrowsize=0.5, style=dashed];
+332 -> 22[arrowsize=0.5, style=dashed];
+334 -> 289;
+335 -> 163;
+338 -> 57[arrowsize=0.5, style=dashed];
+339 -> 155[arrowsize=0.5, style=dashed];
+340 -> 244[lhead=clusterTube003];
+341 -> 404;
+343 -> 285;
+344 -> 313[ltail=clusterCompound005];
+344 -> 164[ltail=clusterCompound005];
+344 -> 162[ltail=clusterCompound005];
+344 -> 158[ltail=clusterCompound005];
+345 -> 155[arrowsize=0.5, style=dashed];
+346 -> 246[lhead=clusterShapeString];
+347 -> 232;
+348 -> 252[lhead=clusterTube004];
+349 -> 92;
+350 -> 195;
+352 -> 222[arrowsize=0.5, style=dashed];
+353 -> 222[arrowsize=0.5, style=dashed];
+354 -> 359[arrowsize=0.5, style=dashed];
+355 -> 360[arrowsize=0.5, style=dashed];
+356 -> 361[arrowsize=0.5, style=dashed];
+357 -> 362[arrowsize=0.5, style=dashed];
+358 -> 363[arrowsize=0.5, style=dashed];
+368 -> 181[lhead=clusterShapeString001];
+369 -> 38[lhead=clusterCylinder016];
+369 -> 27[lhead=clusterTube015];
+370 -> 322;
+371 -> 256;
+373 -> 229[arrowsize=0.5, style=dashed];
+374 -> 93;
+375 -> 278[lhead=clusterShapeString002];
+376 -> 290[lhead=clusterTube006];
+380 -> 22[arrowsize=0.5, style=dashed];
+384 -> 244[lhead=clusterTube003, ltail=clusterCompound];
+384 -> 404[ltail=clusterCompound];
+384 -> 285[ltail=clusterCompound];
+384 -> 246[lhead=clusterShapeString, ltail=clusterCompound];
+384 -> 92[ltail=clusterCompound];
+385 -> 106;
+386 -> 314;
+387 -> 127[lhead=clusterBox011];
+387 -> 402[lhead=clusterTube007];
+388 -> 165[lhead=clusterShapeString003];
+389 -> 163;
+390 -> 217[lhead=clusterCylinder];
+391 -> 263;
+392 -> 194;
+393 -> 206;
+393 -> 234;
+394 -> 292[lhead=clusterTube005];
+396 -> 155[arrowsize=0.5, style=dashed];
+397 -> 57[arrowsize=0.5, style=dashed];
+398 -> 220[lhead=clusterCylinder001];
+399 -> 199;
+399 -> 348;
+399 -> 394;
+399 -> 401;
+399 -> 398;
+399 -> 288;
+400 -> 92;
+401 -> 290[lhead=clusterTube006];
+403 -> 275[arrowsize=0.5, style=dashed];
+404 -> 108[lhead=clusterBox];
+405 -> 289;
+407 -> 126[arrowsize=0.5, style=dashed];
+412 -> 301[lhead=clusterBox013];
+412 -> 234;
+413 -> 412;
+413 -> 351[lhead=clusterTube009];
+415 -> 22[arrowsize=0.5, style=dashed];
+417 -> 179[arrowsize=0.5, style=dashed];
+417 -> 90[arrowsize=0.5, style=dashed];
+422 -> 416[lhead=clusterBox014];
+422 -> 234;
+423 -> 422;
+423 -> 351[lhead=clusterTube009];
+426 -> 90[arrowsize=0.5, style=dashed];
+432 -> 36;
+432 -> 8[lhead=clusterCylinder020];
+433 -> 424[lhead=clusterBox015];
+433 -> 431;
+434 -> 433;
+434 -> 234;
+}
